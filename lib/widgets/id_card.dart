@@ -33,7 +33,7 @@ class _IdCardState extends State<IdCard> {
             ),
             boxShadow: [
               BoxShadow(
-                color: widget.bgColor.withOpacity(0.25),
+                color: widget.bgColor.withOpacity(0.45),
                 blurRadius: width * .15,
                 spreadRadius: width * .015,
               ),
