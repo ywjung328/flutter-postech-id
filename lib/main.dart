@@ -2,8 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:postech_id_card/views/main_view.dart';
 import 'package:postech_id_card/widgets/colors.dart';
+import 'package:url_strategy/url_strategy.dart';
 
-void main() => runApp(const MyApp());
+void main() {
+  setPathUrlStrategy();
+  runApp(const MyApp());
+}
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
